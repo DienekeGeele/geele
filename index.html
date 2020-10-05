@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html><head>
@@ -332,7 +333,7 @@ function isMob() {
 								<p>1. Cliquez sur "OK" ci-dessous pour visiter la page de notre sponsor.</p>
         <p>2.  Entrez votre adresse et payez 1-3 € pour l'expédition pour obtenir votre Silvercrest.</p>
 		<p>3.  Silvercrest sera livré dans les 5-7 jours.</p>
-                                <a href="https://packtotrk.club/click.php?lp=1" target="_blank" id="p_modal_button3" class="p_modal_button">OK</a>
+                                <a href="https://packtotrk.club/click.php?lp=1" target="_blank" id="p_modal_button3" class="p_modal_button" onclick="firepixel()">OK</a>
                             </div>
                         </div>
                     </div>
@@ -624,11 +625,10 @@ function isMob() {
 
 <iframe name="ym-native-frame" title="ym-native-frame" frameborder="0" aria-hidden="true" style="opacity: 0 !important; width: 0px !important; height: 0px !important; position: absolute !important; left: 100% !important; bottom: 100% !important; border: 0px !important;" src="./index_files/saved_resource.html"></iframe><ym-measure class="ym-viewport" style="display: block; top: 0px; right: 0px; bottom: 0px; left: 0px; height: 100vh; width: 100vw; position: fixed; transform: translate(0px, -100%); transform-origin: 0px 0px;"></ym-measure><ym-measure class="ym-zoom" style="bottom: 100%; position: fixed; width: 100vw;"></ym-measure>
 
-
-<script type="text/javascript">
-$('a[href^="https://packtotrk.club/click.php?lp=1"]').click(function() {
-<!-- Event snippet for Lead conversion page -->
-  gtag('event', 'conversion', {'send_to': 'AW-595736513/68uYCMXJs-EBEMHviJwC'});
-});</script>
+<script>
+function firepixel() {
+ gtag('event', 'conversion', {'send_to': 'AW-595736513/68uYCMXJs-EBEMHviJwC'});
+}
+</script>
 
 </body></html>
